@@ -1,0 +1,25 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main {
+    
+    background-image: url(../img/background.png);
+    background-size: cover;
+        /* max-width: 1380px; */
+    width: 100%;
+    height: 100vh;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1380px;
+    padding: 0 30px;
+    display: flex;
+    justify-content:space-between
+}
+
+.flex-itm1 {
+    font-size: 12px;
+    font-weight: 600;
+}
