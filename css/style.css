@@ -14,7 +14,7 @@
 .container {
     margin: 0 auto;
     width: 1380px;
-    padding: 0 30px;
+    padding: 37px 30px 0px 30px;
     display: flex;
     justify-content:space-between
 }
@@ -22,4 +22,73 @@
 .flex-itm1 {
     font-size: 12px;
     font-weight: 600;
+    margin-right: auto;
+}
+
+.flex-itm2 {
+    margin-right: 200px; 
+    font-size: 14px;
+    font-weight: 600;
+
+}
+
+.flex-itm3 {
+    margin-right: 450px; 
+    font-size: 26px;
+    font-weight: 900;
+    height: 44px;
+    width: 189px;
+    background-color: #ffffff;
+    text-align: center;
+    line-height: 44px;
+    
+
+}
+
+.img_menu {
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    opacity: 1;
+    transition: 0.3s all;
+}
+
+a:hover {
+    opacity: 0.5;
+    cursor: url('/cursor/sym57.cur'), auto;
+}
+
+.main_text {
+    width: 1380px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* body {cursor: url('http://yraaa.ru/_ld/4/411_cursor.cur'), auto} */
+
+.main_text_table {
+    height:658px;
+    vertical-align:middle;
+    width:1380px;
+    text-align:center;
+    border:none;
+    font-size: 40px;
+    color: #ffffff;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-shadow: 3px 5px 20px blueviolet;
+}
+
+.main_text_table_lower {
+    height:280px;
+    vertical-align:middle;
+    width:1380px;
+    text-align:center;
+    border:none;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #F2F2F2;
 }
