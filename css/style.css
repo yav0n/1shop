@@ -58,7 +58,7 @@ a {
 
 a:hover {
     opacity: 0.5;
-    cursor: url('/cursor/sym57.cur'), auto;
+    cursor: url('cursor/sym57.cur'), auto;
 }
 
 .main_text {
