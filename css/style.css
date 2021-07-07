@@ -73,9 +73,12 @@ a:hover {
 /* body {cursor: url('http://yraaa.ru/_ld/4/411_cursor.cur'), auto} */
 
 .main_text_table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height:658px;
     vertical-align:middle;
-    width:1380px;
+    max-width:100%;
     text-align:center;
     border:none;
     font-size: 40px;
@@ -85,27 +88,48 @@ a:hover {
     text-shadow: 3px 5px 20px blueviolet;
 }
 
-.main_text_table_lower {
-    height:280px;
-    vertical-align:middle;
-    width:1380px;
-    text-align:center;
-    border:none;
-    font-size: 16px;
-    font-weight: 500;
-    background-color: #F2F2F2;
-}
+.main_text_lower {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 280px;
+    background-color: #f2f2f2;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, .2);
+    }
 
-.about_us {
+.about_us_1 {
+    display: flex;
+    padding-top: 223px;
     height: 1018px;
-    border: 1px black solid;
+    
 }
-
-.about_us_1_pict {
-    float: right;
-    width: 710px;
+.about_us_1_text {
+    width: 50%;
     height: 579px;
-    background: #c4c4c4;
-    margin: 220px 0;
+    margin-top: 133px;
+    margin-left: 30px;
+    margin-right: 117px;
 }
 
+.about_us_1_sqr {
+    width: 50%;
+    height: 579px;
+    background: #C4C4C4;
+}
+
+.about_us_2 {
+    display: flex;
+    height: 798px; 
+}
+
+.about_us_2_sqr {
+    width: 50%;
+    height: 579px;
+    background: #C4C4C4;
+}
+
+.about_us_2_text {
+    width: 50%;
+    margin-left: 103px;
+    margin-top: 133px;
+}
